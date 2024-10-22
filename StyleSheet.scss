@@ -1,0 +1,51 @@
+﻿﻿.fucking {
+    color: blueviolet;
+}
+.highlight
+{
+    font-weight:bold;
+    color:red;
+}
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    z-index: 10;
+}
+
+.footer a {
+    text-decoration: none;
+    color: dodgerblue;
+    font-size: 1.2em;
+}
+
+.footer a:hover {
+    color: #0056b3;
+}
+body {
+    font-family: KaiTi,sans-sreif;
+    background-color:white;
+    color:white;
+    font-size: 700%;
+    text-align: center;
+    line-height: 200%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media(max-width:600px){ body {
+    font-family:Italic, sans-sreif;
+    background-color:darkcyan;
+    color:black;
+    font-size:200%;
+    text-align:center;
+    line-height:100%;
+    width:100%;
+    margin:0 auto;
+    }
+}
+img
+{
+    width:40%;
+    height:auto;
+}
