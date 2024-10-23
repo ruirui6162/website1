@@ -3,11 +3,6 @@
   color: blueviolet;
 }
 
-.highlight {
-  font-weight: bold;
-  color: red;
-}
-
 .footer {
   text-align: center;
   padding: 20px;
@@ -34,10 +29,11 @@ body {
   line-height: 200%;
   width: 100%;
   margin: 0 auto;
-img {
+}
+body img {
   width: 40%;
   height: auto;
-}}
+}
 
 @media (max-width: 600px) {
   body {
@@ -49,10 +45,29 @@ img {
     line-height: 100%;
     width: 100%;
     margin: 0 auto;
-    img {
-  width: 60%;
-  height: auto;
-}
+  }
+  img {
+    width: 60%;
+    height: auto;
   }
 }
+.highlight {
+  font-weight: bold;
+  color: red;
+}
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.4) url("../image/s1.jpg") no-repeat center center;
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-attachment: fixed;
+}
