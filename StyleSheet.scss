@@ -1,4 +1,4 @@
-﻿﻿.fucking {
+﻿.fucking {
     color: blueviolet;
 }
 .highlight
@@ -9,18 +9,18 @@
 .footer {
     text-align: center;
     padding: 20px;
-    background-color: #f1f1f1;
     z-index: 10;
 }
 
-.footer a {
+.footer a { /*表示对于链接点击之前状态的设置*/
     text-decoration: none;
-    color: dodgerblue;
-    font-size: 1.2em;
+    color: orange;
+    font-size: 0.8em;
+    z-index: 10;
 }
 
-.footer a:hover {
-    color: #0056b3;
+.footer a:hover {/*表示对于链接点击之后状态的设置*/
+    color:brown;
 }
 body {
     font-family: KaiTi,sans-sreif;
